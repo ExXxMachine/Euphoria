@@ -1,0 +1,117 @@
+@import url('./fonts/Core-Sans-C/Core-Sans-C.css');
+@import url('./fonts/Causten/Causten.css');
+
+.banner {
+	width: 100%;
+	height: 85vh;
+	background-image: url(../style/img/title__img.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.container {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.banner__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 40vw;
+	height: 80vh;
+	margin: 0 0 0 20%;
+	color: #ffffff;
+	font-family: 'Core-Sans-C';
+}
+h1 {
+	font-weight: 800;
+	font-size: 65px;
+}
+p {
+	font-size: 30px;
+	font-weight: 500;
+}
+.banner__btn {
+	font-family: 'Causten';
+	font-weight: 700;
+	font-size: 20px;
+	height: 8%;
+	width: 40%;
+	color: black;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 8px;
+}
+
+.deals {
+	margin: 13vh 0 13vh 0;
+	width: 85vw;
+	height: 45vh;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Causten';
+}
+
+.deals__cart {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 3%;
+	background-color: black;
+	color: #ffffff;
+	font-weight: 800;
+	height: 100%;
+	width: 47%;
+	border-radius: 12px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.337);
+}
+.deal__textContainer {
+	width: 50%;
+	height: 70%;
+}
+.deal__promotion {
+	font-size: 20px;
+}
+
+.deal__textDeal {
+	font-size: 38px;
+}
+
+.deal__upto {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+a.deal__a {
+	text-decoration: underline;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.title__productList {
+	font-family: 'Core-sans-C';
+	font-weight: 600;
+	width: 84%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	color: #3c4242;
+	font-size: 25px;
+}
+
+.Rectangle {
+	margin-right: 10px;
+	width: 6px;
+	height: 30px;
+	background-color: #8a33fd;
+	border-radius: 10px;
+}

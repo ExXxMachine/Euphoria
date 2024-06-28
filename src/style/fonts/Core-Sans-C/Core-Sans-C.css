@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Core-Sans-C';
+	font-weight: 500;
+	font-style: normal;
+	src: url('CoreSansC-55Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Core-Sans-C';
+	font-weight: 600;
+	font-style: normal;
+	src: url('CoreSansC-65Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Core-Sans-C';
+	font-weight: 700;
+	font-style: normal;
+	src: url('CoreSansC-75ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Core-Sans-C';
+	font-weight: 800;
+	font-style: normal;
+	src: url('CoreSansC-85Heavy.ttf') format('truetype');
+}
