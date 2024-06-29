@@ -5,6 +5,7 @@ import background1 from '../style/img/deals1.jpg'
 import background2 from '../style/img/deals2.jpg'
 import { ProductList } from '../components/ProductList'
 import axios from 'axios'
+import { Footer } from '../components/Footer'
 
 const reqURL = `https://fakestoreapi.com/products/category/women's%20clothing`
 
@@ -59,6 +60,7 @@ const Home = () => {
 				<h2>For Women</h2>
 			</div>
 			<ProductList posts={dataWomen.slice(0, 4)} />
+			<Footer />
 		</div>
 	)
 }

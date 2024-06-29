@@ -37,3 +37,7 @@ h4 {
 	text-overflow: ellipsis;
 	font-weight: 600;
 }
+
+.productCard__a {
+	color: #3c4242;
+}
