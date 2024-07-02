@@ -7,7 +7,6 @@ import { ProductList } from '../components/ProductList'
 import axios from 'axios'
 import { Footer } from '../components/Footer'
 
-const reqURL = `https://fakestoreapi.com/products/category/women's%20clothing`
 
 const Home = () => {
 	const [dataMen, setDataMen] = useState([])

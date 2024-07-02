@@ -1,5 +1,6 @@
 import classesSingUp from '../style/SingUp.module.css'
 import SingUpImg from '../style/img/SingUpImg.jpg'
+import { Link } from 'react-router-dom'
 const SingUp = () => {
 	return (
 		<div className={classesSingUp.container}>
@@ -30,7 +31,9 @@ const SingUp = () => {
 				<button type='submit' id='submit' className={classesSingUp.form__btn}>
 					Sing up
 				</button>
-				<a className={classesSingUp.SingUp__link} href='#'>Already have an account? Log in</a>
+				<Link to='/login' className={classesSingUp.SingUp__link}>
+					Already have an account? Log in
+				</Link>
 			</form>
 		</div>
 	)

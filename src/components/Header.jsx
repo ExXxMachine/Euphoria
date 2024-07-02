@@ -60,7 +60,10 @@ const Header = () => {
 						<a href='#' className={classesHeader.user__btn}>
 							<img src={Heart} alt='Heart__logo' />
 						</a>
-						<Link to='/singUp' className={classesHeader.user__btn}>
+						<Link
+							to={localStorage.getItem('flag') == '0' ? '/login' : '/profile'}
+							className={classesHeader.user__btn}
+						>
 							<img src={User} alt='User__logo' />
 						</Link>
 						<a href='#' className={classesHeader.user__btn}>
