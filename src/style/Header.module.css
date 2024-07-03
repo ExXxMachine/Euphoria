@@ -101,6 +101,7 @@ header {
 }
 .user__btn:focus {
 	background-color: #8a33fd;
+	color: #ffffff;
 }
 .user__btn:hover {
 	border: #807d7e solid 2px;

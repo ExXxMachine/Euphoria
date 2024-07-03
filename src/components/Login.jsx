@@ -2,11 +2,11 @@ import { useState } from 'react'
 import classesSingUp from '../style/SingUp.module.css'
 import LoginImg from '../style/img/LoginImg.jpg'
 import { Link } from 'react-router-dom'
-import { redirect } from 'react-router-dom'
+
 
 const Login = () => {
 	const [username, setUsername] = useState('')
-	const [password, setPasswort] = useState('')
+	const [password, setPassword] = useState('')
 	const [error, setError] = useState('')
 	async function handleContactSubmit(e) {
 		e.preventDefault()
@@ -16,7 +16,7 @@ const Login = () => {
 		setUsername(event.target.value)
 	}
 	const passwordChange = event => {
-		setPasswort(event.target.value)
+		setPassword(event.target.value)
 	}
 
 	const data = {
@@ -36,7 +36,7 @@ const Login = () => {
 			body: JSON.stringify(data),
 		})
 			.then(res => {
-				if (res.status == 401) {
+				if (res.status === 401) {
 					setError('Username or password is incorrect')
 				} else {
 					localStorage.setItem('flag', 1)

@@ -1,20 +1,25 @@
 import classesProductCard from '../style/ProductCard.module.css'
+import { Link } from 'react-router-dom'
 const ProductCard = props => {
 	return (
 		<div className={classesProductCard.productCard__block}>
-			<a href='#' className={classesProductCard.productCard__a}>
+			<Link
+				to='/product'
+				state={props}
+				className={classesProductCard.productCard__a}
+			>
 				<img
-					src={props.img}
+					src={props.props.image}
 					alt='cardImg'
 					className={classesProductCard.productCard__img}
 				/>
 				<div className={classesProductCard.productCard__info}>
-					<h4>{props.title}</h4>
+					<h4>{props.props.title}</h4>
 					<div className={classesProductCard.productCard__price}>
-						$ {props.price}
+						$ {props.props.price}
 					</div>
 				</div>
-			</a>
+			</Link>
 		</div>
 	)
 }

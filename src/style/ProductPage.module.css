@@ -1,0 +1,121 @@
+@import url('./fonts/Core-Sans-C/Core-Sans-C.css');
+@import url('./fonts/Causten/Causten.css');
+
+.product__container {
+	display: flex;
+	width: 100vw;
+	height: 85vh;
+	color: #3c4242;
+	font-family: 'Causten';
+}
+
+.product__img {
+	height: 100%;
+	width: auto;
+	margin: 0 0 0 8%;
+}
+
+.product__infoBlock {
+	height: 100%;
+	width: 100%;
+	padding: 5%;
+}
+
+.product__rating {
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 3%;
+	width: 50%;
+	color: #807d7e;
+}
+
+.product__title {
+	font-family: 'Core-Sans-C';
+	font-weight: 600;
+	font-size: 34px;
+}
+
+.product__ratingP {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.product__sizeBlock {
+	margin: 40px 0 0 0;
+	width: 50%;
+	height: 20%;
+}
+.product__sizeBtn {
+	border-radius: 12px;
+	border: #3c4242 solid 1px;
+	height: 6vh;
+	width: 6vh;
+}
+
+.product__sizeConfirm {
+	width: 80%;
+	height: 70%;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.product__sizeBtn:focus {
+	background-color: #3c4242;
+	color: #ffffff;
+}
+.product__sizeBtn:hover {
+	border: #807d7e solid 2px;
+}
+
+.product__addBlock {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 50%;
+	height: 6vh;
+}
+
+.product__addBtn {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 100%;
+	width: 60%;
+	color: #ffffff;
+	background-color: #8a33fd;
+	border-radius: 8px;
+	border: none;
+}
+
+.product__price {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	border: #807d7e solid 2px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.product__descriptionBlock {
+	padding-top: 10px;
+	margin-top: 40px;
+	border-top: #807d7e solid 2px;
+}
+
+.product__descriptionH {
+	font-size: 28px;
+}
+
+.product__descriptionP {
+	font-size: 20px;
+	color: #807d7e;
+}
