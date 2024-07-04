@@ -22,14 +22,14 @@ const Header = () => {
 								</a>
 							</li>
 							<li className={classesHeader.nav__link}>
-								<a href='#' className={classesHeader.nav__a}>
+								<Link to='/men' className={classesHeader.nav__a}>
 									Men
-								</a>
+								</Link>
 							</li>
 							<li className={classesHeader.nav__link}>
-								<a href='#' className={classesHeader.nav__a}>
+								<Link to='/women' className={classesHeader.nav__a}>
 									Women
-								</a>
+								</Link>
 							</li>
 							<li className={classesHeader.nav__link}>
 								<a href='#' className={classesHeader.nav__a}>
