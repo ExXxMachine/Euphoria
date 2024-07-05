@@ -4,27 +4,16 @@ import DealComponent from '../components/DealsConstructor'
 import background1 from '../style/img/deals1.jpg'
 import background2 from '../style/img/deals2.jpg'
 import { ProductList } from '../components/ProductList'
-import axios from 'axios'
 import { Footer } from '../components/Footer'
-
+import { fetchDataMen, fetchDataWomen } from '../store/slices/dataSlice'
+import { useDispatch } from 'react-redux'
 
 const Home = () => {
-	const [dataMen, setDataMen] = useState([])
-	const [dataWomen, setDataWomen] = useState([])
+	const dispatch = useDispatch()
 	useEffect(() => {
-		axios
-			.get("https://fakestoreapi.com/products/category/men's%20clothing")
-			.then(data => {
-				setDataMen(data.data)
-			})
-	}, [])
-	useEffect(() => {
-		axios
-			.get("https://fakestoreapi.com/products/category/women's%20clothing")
-			.then(data => {
-				setDataWomen(data.data)
-			})
-	}, [])
+		dispatch(fetchDataMen())
+		dispatch(fetchDataWomen())
+	}, [dispatch])
 	return (
 		<div className={classesHomePage.container}>
 			<div className={classesHomePage.banner}>
@@ -53,12 +42,12 @@ const Home = () => {
 				<div className={classesHomePage.Rectangle}></div>
 				<h2>For Men</h2>
 			</div>
-			<ProductList posts={dataMen.slice(0, 4)} />
+			<ProductList category={'men'} mod={'trim'}/>
 			<div className={classesHomePage.title__productList}>
 				<div className={classesHomePage.Rectangle}></div>
 				<h2>For Women</h2>
 			</div>
-			<ProductList posts={dataWomen.slice(0, 4)} />
+			<ProductList category={'women'} mod={'trim'}/>
 			<Footer />
 		</div>
 	)
