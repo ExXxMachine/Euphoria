@@ -1,5 +1,6 @@
-@import url('./fonts/Causten/Causten.css');
-@import url('./fonts/Core-Sans-C/Core-Sans-C.css');
+@import 'vars';
+@import url('../fonts/Causten/Causten.css');
+@import url('../fonts/Core-Sans-C/Core-Sans-C.css');
 
 .container {
 	display: flex;
@@ -22,32 +23,32 @@
 .form__title {
 	font-family: 'Core-Sans-C';
 	font-weight: 600;
-	font-size: 34px;
+	font-size: $fs-l;
 }
 
 .form__p {
-	color: #666666cc;
+	color: $gray100;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: $fs-xxs;
 }
 label {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: $fs-xs;
 }
 
 .form__input {
 	height: 60px;
 	border-radius: 8px;
-	border: #3c4242 solid 1px;
+	border: $br-1;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: $fs-base;
 	margin: 10px 0 0 0;
 }
 
 .input__block {
 	display: flex;
 	flex-direction: column;
-	height: 20 vh;
+	height: 20vh;
 }
 
 .form__btn {
@@ -56,11 +57,11 @@ label {
 	border: none;
 	color: #ffffff;
 	font-weight: 500;
-	font-size: 17px;
-	background-color: #8a33fd;
+	font-size: $fs-xs;
+	background-color: $purple;
 	border-radius: 8px;
 	margin: 20px 0 20px 0;
 }
 .SingUp__link {
-	color: #3c4242;
+	color: $secondary;
 }

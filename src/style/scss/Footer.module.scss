@@ -1,7 +1,9 @@
-@import url('./fonts/Causten/Causten.css');
+@import url('../fonts/Causten/Causten.css');
+@import 'vars';
+
 footer {
-	color: #f6f6f6;
-	background-color: #3c4242;
+	color: $white100;
+	background-color: $secondary;
 	font-family: 'Causten';
 	width: 100vw;
 	height: 70vh;
@@ -31,13 +33,13 @@ h2 {
 
 .footer__a {
 	font-weight: 500;
-	color: #f6f6f6;
+	color: $white100;
 	margin: 10px 0 10px 0;
 }
 
 .footer__p {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: $fs-xxs;
 }
 
 .footer__mediaBlock {

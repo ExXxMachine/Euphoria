@@ -1,10 +1,10 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
-import classesProduct from '../style/ProductPage.module.css'
+import classesProduct from '../style/css/ProductPage.module.css'
 import Rating from '../style/img/score.svg'
 import Comment from '../style/img/commentIco.svg'
 import addImg from '../style/img/add.svg'
-import classesHomePage from '../style/HomePage.module.css'
+import classesHomePage from '../style/css/HomePage.module.css'
 const ProductPage = () => {
 	const location = useLocation()
 	const state = location.state.props
@@ -48,7 +48,9 @@ const ProductPage = () => {
 							Product Description
 						</h2>
 					</div>
-					<p className={classesProduct.product__descriptionP}>{state.description}</p>
+					<p className={classesProduct.product__descriptionP}>
+						{state.description}
+					</p>
 				</div>
 			</div>
 		</div>

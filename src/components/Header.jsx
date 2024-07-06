@@ -1,4 +1,4 @@
-import classesHeader from '../style/Header.module.css'
+import classesHeader from '../style/css/Header.module.css'
 import Logo from '../style/img/Logo.svg'
 import Search from '../style/img/search.svg'
 import Heart from '../style/img/heart.svg'

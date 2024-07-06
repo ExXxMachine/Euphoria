@@ -1,11 +1,12 @@
-@import url('./fonts/Core-Sans-C/Core-Sans-C.css');
-@import url('./fonts/Causten/Causten.css');
+@import url('../fonts/Core-Sans-C/Core-Sans-C.css');
+@import url('../fonts/Causten/Causten.css');
+@import 'vars';
 
 .product__container {
 	display: flex;
 	width: 100vw;
 	height: 85vh;
-	color: #3c4242;
+	color: $secondary;
 	font-family: 'Causten';
 }
 
@@ -29,17 +30,17 @@
 	align-items: center;
 	height: 3%;
 	width: 50%;
-	color: #807d7e;
+	color: $gray100;
 }
 
 .product__title {
 	font-family: 'Core-Sans-C';
 	font-weight: 600;
-	font-size: 34px;
+	font-size: $fs-l;
 }
 
 .product__ratingP {
-	font-size: 16px;
+	font-size: $fs-xxs;
 	font-weight: 500;
 }
 
@@ -50,7 +51,7 @@
 }
 .product__sizeBtn {
 	border-radius: 12px;
-	border: #3c4242 solid 1px;
+	border: $br-1;
 	height: 6vh;
 	width: 6vh;
 }
@@ -64,11 +65,11 @@
 }
 
 .product__sizeBtn:focus {
-	background-color: #3c4242;
-	color: #ffffff;
+	background-color: $secondary;
+	color: $primary;
 }
 .product__sizeBtn:hover {
-	border: #807d7e solid 2px;
+	border: $br-2;
 }
 
 .product__addBlock {
@@ -87,8 +88,8 @@
 	justify-content: space-evenly;
 	height: 100%;
 	width: 60%;
-	color: #ffffff;
-	background-color: #8a33fd;
+	color: $primary;
+	background-color: $purple;
 	border-radius: 8px;
 	border: none;
 }
@@ -100,22 +101,22 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 8px;
-	border: #807d7e solid 2px;
-	font-size: 18px;
+	border: $br-2;
+	font-size: $fs-xs;
 	font-weight: 700;
 }
 
 .product__descriptionBlock {
 	padding-top: 10px;
 	margin-top: 40px;
-	border-top: #807d7e solid 2px;
+	border-top: $br-2;
 }
 
 .product__descriptionH {
-	font-size: 28px;
+	font-size: $fs-xs;
 }
 
 .product__descriptionP {
-	font-size: 20px;
-	color: #807d7e;
+	font-size: $fs-xs;
+	color: $gray100;
 }

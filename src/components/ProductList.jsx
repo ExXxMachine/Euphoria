@@ -1,6 +1,6 @@
 import { ProductCard } from '../components/ProductCard'
 import { useSelector } from 'react-redux'
-import classesProductList from '../style/ProductList.module.css'
+import classesProductList from '../style/css/ProductList.module.css'
 
 const ProductList = props => {
 	const cards = useSelector(state => {

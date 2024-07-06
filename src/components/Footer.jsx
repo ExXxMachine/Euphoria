@@ -1,4 +1,4 @@
-import classesFooter from '../style/Footer.module.css'
+import classesFooter from '../style/css/Footer.module.css'
 import FB from '../style/img/FB.svg'
 import Inst from '../style/img/inst.svg'
 import Tw from '../style/img/tw.svg'

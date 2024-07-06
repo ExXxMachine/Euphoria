@@ -1,4 +1,4 @@
-import classesHomePage from '../style/HomePage.module.css'
+import classesHomePage from '../style/css/HomePage.module.css'
 
 const DealComponent = props => {
 	const container = {

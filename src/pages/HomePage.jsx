@@ -1,4 +1,4 @@
-import classesHomePage from '../style/HomePage.module.css'
+import classesHomePage from '../style/css/HomePage.module.css'
 import { useEffect, useState } from 'react'
 import DealComponent from '../components/DealsConstructor'
 import background1 from '../style/img/deals1.jpg'
