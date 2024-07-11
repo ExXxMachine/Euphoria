@@ -1,0 +1,19 @@
+@import url('../fonts/Causten/Causten.css');
+@import 'vars';
+.cartPage__p {
+	font-family: 'Causten';
+	font-weight: 400;
+	color: $gray100;
+	font-size: $fs-xs;
+}
+.cartPage__link {
+	color: $purple;
+	font-family: 'Causten';
+	font-weight: 400;
+	font-size: $fs-xs;
+}
+.cartPage__block {
+	width: 100%;
+	height: 12vh;
+	padding-left: 5%;
+}

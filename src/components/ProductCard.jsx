@@ -1,4 +1,4 @@
-import classesProductCard from '../style/css/ProductCard.module.css'
+import classesProductCard from '../app/style/css/ProductCard.module.css'
 import { Link } from 'react-router-dom'
 const ProductCard = props => {
 	return (

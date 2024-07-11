@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import classesSingUp from '../style/css/SingUp.module.css'
-import LoginImg from '../style/img/LoginImg.jpg'
+import classesSingUp from '../app/style/css/SingUp.module.css'
+import LoginImg from '../app/style/img/LoginImg.jpg'
 import { Link } from 'react-router-dom'
 
 

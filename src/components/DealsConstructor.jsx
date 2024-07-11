@@ -1,4 +1,4 @@
-import classesHomePage from '../style/css/HomePage.module.css'
+import classesHomePage from '../app/style/css/HomePage.module.css'
 
 const DealComponent = props => {
 	const container = {
@@ -18,4 +18,4 @@ const DealComponent = props => {
 	)
 }
 
-export default DealComponent
+export {DealComponent}

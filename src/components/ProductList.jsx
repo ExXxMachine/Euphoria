@@ -1,8 +1,9 @@
 import { ProductCard } from '../components/ProductCard'
 import { useSelector } from 'react-redux'
-import classesProductList from '../style/css/ProductList.module.css'
+import classesProductList from '../app/style/css/ProductList.module.css'
 
 const ProductList = props => {
+	
 	const cards = useSelector(state => {
 		if (props.mod === 'trim') {
 			return props.category === 'men'
@@ -14,7 +15,7 @@ const ProductList = props => {
 				: state.data.dataWomen
 		}
 	})
-
+	console.log(cards)
 	return (
 		<div className={classesProductList.div__block}>
 			{cards.map((card, index) => (

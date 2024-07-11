@@ -1,0 +1,7 @@
+export { Home } from '../pages/HomePage'
+export { Login } from '../pages/Login'
+export { SingUp } from '../pages/SingUp'
+export { Profile } from '../pages/Profile'
+export { ProductPage } from '../pages/ProductPage'
+export { ProductListPage } from '../pages/ProductListPage'
+export { CartPage } from '../pages/CartPage'

@@ -1,9 +1,9 @@
-import classesHeader from '../style/css/Header.module.css'
-import Logo from '../style/img/Logo.svg'
-import Search from '../style/img/search.svg'
-import Heart from '../style/img/heart.svg'
-import Cart from '../style/img/shoppingCart.svg'
-import User from '../style/img/user.svg'
+import classesHeader from '../app/style/css/Header.module.css'
+import Logo from '../app/style/img/Logo.svg'
+import Search from '../app/style/img/search.svg'
+import Heart from '../app/style/img/heart.svg'
+import Cart from '../app/style/img/shoppingCart.svg'
+import User from '../app/style/img/user.svg'
 import { Link, Outlet } from 'react-router-dom'
 
 const Header = () => {
@@ -66,9 +66,9 @@ const Header = () => {
 						>
 							<img src={User} alt='User__logo' />
 						</Link>
-						<a href='#' className={classesHeader.user__btn}>
+						<Link to={'/cart'} className={classesHeader.user__btn}>
 							<img src={Cart} alt='Cart__logo' />
-						</a>
+						</Link>
 					</nav>
 				</div>
 			</header>

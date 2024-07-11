@@ -1,10 +1,10 @@
-import classesFooter from '../style/css/Footer.module.css'
-import FB from '../style/img/FB.svg'
-import Inst from '../style/img/inst.svg'
-import Tw from '../style/img/tw.svg'
-import In from '../style/img/in.svg'
-import Gplay from '../style/img/Gplay.svg'
-import AS from '../style/img/appStore.svg'
+import classesFooter from '../app/style/css/Footer.module.css'
+import FB from '../app/style/img/FB.svg'
+import Inst from '../app/style/img/inst.svg'
+import Tw from '../app/style/img/tw.svg'
+import In from '../app/style/img/in.svg'
+import Gplay from '../app/style/img/Gplay.svg'
+import AS from '../app/style/img/appStore.svg'
 const Footer = () => {
 	return (
 		<footer>

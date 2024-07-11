@@ -1,5 +1,5 @@
-import classesSingUp from '../style/css/SingUp.module.css'
-import SingUpImg from '../style/img/SingUpImg.jpg'
+import classesSingUp from '../app/style/css/SingUp.module.css'
+import SingUpImg from '../app/style/img/SingUpImg.jpg'
 import { Link } from 'react-router-dom'
 const SingUp = () => {
 	return (
