@@ -17,7 +17,7 @@
 
 .cart__titleBlock {
 	height: 30vh;
-	width: 30%;
+	width: 28%;
 	display: flex;
 	align-items: center;
 }
@@ -33,4 +33,23 @@
 	flex-direction: column;
 	justify-content: center;
 	margin-left: 20px;
+}
+
+.cart__countBlock {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 8%;
+	height: 20%;
+
+	background-color: $white100;
+	border-radius: 12px;
+}
+.cart__countBtn {
+	border: none;
+	font-size: $fs-s;
+}
+
+.cart__removeBtn {
+	border: none;
 }

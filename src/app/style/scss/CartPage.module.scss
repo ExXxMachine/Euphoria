@@ -17,3 +17,22 @@
 	height: 12vh;
 	padding-left: 5%;
 }
+
+.cardList__title {
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: $primary;
+	background-color: $secondary;
+
+	font-family: 'Causten';
+	font-weight: 600;
+}
+.cartList__p {
+	font-size: $fs-xs;
+}
+.divBlock {
+	width: 25%;
+}

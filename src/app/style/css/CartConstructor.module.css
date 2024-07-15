@@ -20,7 +20,7 @@
 
 .cart__titleBlock {
   height: 30vh;
-  width: 30%;
+  width: 28%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,4 +48,28 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 20px;
+}
+
+.cart__countBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 8%;
+  height: 20%;
+  background-color: #f6f6f6;
+  border-radius: 12px;
+}
+
+.cart__countBtn {
+  border: none;
+  font-size: 25px;
+}
+
+.cart__removeBtn {
+  border: none;
 }

@@ -18,3 +18,28 @@
   height: 12vh;
   padding-left: 5%;
 }
+
+.cardList__title {
+  width: 100vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  background-color: #3c4242;
+  font-family: "Causten";
+  font-weight: 600;
+}
+
+.cartList__p {
+  font-size: 18px;
+}
+
+.divBlock {
+  width: 25%;
+}
